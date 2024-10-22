@@ -1,0 +1,54 @@
+
+.bg-image{
+    height: 594px;
+    background: url(images/salutjudo1.jpg) center no-repeat ;
+  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+}
+.bg-image p{
+  
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    padding-top: 80px; 
+}
+.card{
+    transition: 0.2s ease-out;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+
+}
+
+.actualité {
+    color: aliceblue;
+    height: 100%;
+}
+
+.contact{
+    color: aliceblue;
+}
+
+.adresse{
+    position: relative;
+    margin-top: 15px;
+}
+
+.foot
+{
+    color: aliceblue;
+    position: relative;
+    margin-top: -20px;
+}
+  
+  
